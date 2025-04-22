@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
+    'cinema.apps.CinemaConfig',
 ]
 
 MIDDLEWARE = [
@@ -66,7 +68,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'cinema.wsgi.application'
+WSGI_APPLICATION = 'cinema_project.wsgi.application'
 
 
 # Database
